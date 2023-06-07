@@ -1,0 +1,51 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AmazonWebsite {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Hp\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.in/");
+		System.out.println(driver.findElement(By.id("nav-link-accountList")).isDisplayed());
+		
+		/*WebElement signInButton = driver.findElement(By.id("nav-link-accountList"));
+        if (signInButton.isDisplayed()) {
+            System.out.println("Sign In button is visible.");
+        } else {
+            System.out.println("Sign In button is not visible.");
+        }
+
+        // Step 3: Click on hamburger menu icon
+        WebElement hamburgerMenuIcon = driver.findElement(By.id("nav-hamburger-menu"));
+        hamburgerMenuIcon.click();
+
+        // Step 4: Click on Mobile & Computer category
+        WebElement mobileAndComputerCategory = driver.findElement(By.xpath("//div[@id='hmenu-content']//a[contains(@href,'nav_shopall')]"));
+        mobileAndComputerCategory.click();
+
+        // Step 5: Click on All Mobile Phones
+        WebElement allMobilePhones = driver.findElement(By.xpath("//a[@aria-label='Mobiles & Accessories']/parent::h2/parent::div/parent::div/following-sibling::div//a[text()='All Mobile Phones']"));
+        allMobilePhones.click();
+
+        // Step 6: Verify the header "Mobiles & Accessories" is visible
+        WebElement header = driver.findElement(By.xpath("//h1[contains(text(),'Mobiles & Accessories')]"));
+        if (header.isDisplayed()) {
+            System.out.println("Header 'Mobiles & Accessories' is visible.");
+        } else {
+            System.out.println("Header 'Mobiles & Accessories' is not visible.");
+        }
+
+        // Close the browser
+        driver.quit();*/
+    }
+}
+
+
+	
+
+

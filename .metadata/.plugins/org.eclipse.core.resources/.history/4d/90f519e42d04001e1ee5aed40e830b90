@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - Mihir.Axis_1_06_2023.AppTest
+    - selenium.TestNGAnnotations
+    - selenium.TestNG
+

@@ -1,0 +1,10 @@
+package amazon.base;
+
+public class BaseConfiguration {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package codes;
+class A{
+	public String GetName(String name){
+		
+	    return name;
+		
+	}
+	}
+
+public class Day23Assignment {
+	
+	public static void main(String[] rags) {
+		A obj = new A();
+		System.out.println(obj.GetName("Mihir"));
+		String s = "Selenium";
+		String b = s.replace('e','b');
+		int len = 0;
+		len = s.length();
+		System.out.println(len);
+		System.out.println(s.charAt(4));
+		System.out.println(b);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
